@@ -1,0 +1,40 @@
+{
+  "name": "fortanix-web3-eth-accounts",
+  "version": "1.0.0",
+  "description": "fortanix-web3-eth-accounts is a drop in replacement for web3.eth.accounts. It extends the capability of applications that use web3.js to support an external HSM based signer with built in second factor authentication.",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/fortanix/fortanix-web3-eth-accounts.git"
+  },
+  "author": "Fortanix <fortanix.com>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://bitbucket.org/fortanix/fortanix-web3-eth-accounts/issues"
+  },
+  "homepage": "https://bitbucket.org/fortanix/fortanix-web3-eth-accounts#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "@ethereumjs/common": "^2.6.4",
+    "@ethereumjs/tx": "^3.5.1",
+    "axios": "^0.27.0",
+    "dotenv": "^16.0.0",
+    "eth-lib": "^0.1.29",
+    "ethereum-public-key-to-address": "^0.0.5",
+    "ethereumjs-util": "^7.1.4",
+    "rsv-signature": "^1.1.0",
+    "web3": "^1.7.3",
+    "web3-core": "^1.7.3",
+    "web3-core-helpers": "^1.7.3",
+    "web3-core-method": "^1.7.3",
+    "web3-utils": "^1.7.3"
+  }
+}
