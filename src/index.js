@@ -139,7 +139,6 @@ async function signDSM(walletName, keyIndex, hash, totp) {
 
 	const dataobj = {
 		operation: 'sign',
-		masterKeyId: process.env.masterKeyId,
 		walletName: walletName,
 		keyIndex: keyIndex.toString(),
 		msgHash: hash,
@@ -240,7 +239,6 @@ class Accounts {
 
 		const dataobj = {
 			operation: 'getPubKey',
-			masterKeyId: process.env.masterKeyId,
 			walletName: walletName,
 			keyIndex: keyIndex.toString()
 		};

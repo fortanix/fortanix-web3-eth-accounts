@@ -316,7 +316,6 @@ accounts.getAddress(walletName, keyIndex)
 
 - `signerUrl`: This is the URL of the signer.
 - `signerId`: UUID of Ethereum Signer Plugin.
-- `masterKeyId`: UUID of master key.
 - `signerAccessToken`: App API key.
 - `providerUrl`: URL of the node provider.  
 
@@ -327,7 +326,6 @@ Example .env file:
 ```
 signerUrl='https://sdkms.fortanix.com/sys/'
 signerId='4211ab3a-2fc2-42ec-a5fe-86e1ae0023e1'
-masterKeyId='856e17d5-2e12-f2e1-b3fe-90f1a2113a0e'
 signerAccessToken='M3M0OWJiYzYtNGM5NC00ZDgxLTk3MGYtODg0YTYwODAwNGU0OlJpQ0xzMzRUcEZpenU0dnlJelRQUnBPRE0kSn0CRUttYkFUOVpSQ3Y4cFBXYkV3R1lpcmlhZElHbS0CU1J0N3lpN2FhLXh0TUZqMUlsdmJhelJPdzNR'
 providerUrl='http://127.0.0.1:7545/'
 ```
