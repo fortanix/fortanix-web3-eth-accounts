@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/fortanix/fortanix-web3-eth-accounts.git"
+    "url": "git+ssh://git@ssh.bitbucket.org/fortanix/fortanix-web3-eth-accounts.git"
   },
   "author": "Fortanix <fortanix.com>",
   "license": "LGPL-3.0-or-later",
